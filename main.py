@@ -1,7 +1,6 @@
-
-from calculation.Seqcal import * 
-from pattern.SeqPattern import *
-from seqMan.SeqMan import *
+from seqbio.calculation.Seqcal import * 
+from seqbio.pattern.SeqPattern import *
+from seqbio.seqMan.SeqMan import *
 
 def test_output_function():
     seq = 'ATGGGccGTAGAATTCTTGCaaGCCCGT'
